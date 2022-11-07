@@ -1,8 +1,9 @@
-name='Irina'
-surname="Petrashkevich"
-age=27.5
-yahr=1995
-
-print(name+' '+surname*5)
-print(name+' '+surname+' '+str(age)+' '+str(yahr))
+str="Petrashkevich"
+print(str[:])
+print(str[::2])
+print(str[1::2])
+print(str[::-1])
+print(str[5:])
+print(str[:5])
+print(str[-2:1:-1])
 
