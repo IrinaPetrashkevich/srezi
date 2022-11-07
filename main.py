@@ -1,9 +1,10 @@
-str="Petrashkevich"
-print(str[:])
-print(str[::2])
-print(str[1::2])
-print(str[::-1])
-print(str[5:])
-print(str[:5])
-print(str[-2:1:-1])
+print("Введите стороны:")
+a = float(input("a = ")) #первая сторона
+b = float(input("b = ")) #вторая сторона
+c = float(input("c = ")) #третья сторона
+
+if a + b > c and a + c > b and b + c > a: # сравниваем суммы всех пар сторон с оставшейся третьей стороной
+    print("Треугольник существует!")
+else:
+    print("Треугольник не существует!")
 
